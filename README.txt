@@ -8,5 +8,11 @@ repositorio en línea y finalmente hice un push. Siguiendo mas o menos estos pas
 (Pendiente)
  Pero uno de los comandos más importantes es 'remote'
 
+Notas:
+
+Hay que distinguir que hay repositorios locales y remoto.
+
+**Uno de mis objetivos de este trabajo será poder retroceder entre versiones**
+
 
 
