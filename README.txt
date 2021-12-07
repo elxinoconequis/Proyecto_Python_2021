@@ -19,9 +19,17 @@ Hay que distinguir que hay repositorios locales y remoto.
 
 <<<<< Notas >>>>>
 
-Conceptos básicos
+Git y Github no es lo mismo; G
+
+--Conceptos básicos--
 
 Branches:
+
+Directory: Es el folder de interés
+
+Terminal or Command Line: Interface para comandos de texto
+
+CLI: Command Line Interface
 
 Headpointers:
 
@@ -31,10 +39,26 @@ Work Area:
 
 Repository: El repositorio es un carpeta donde se guarda los metadaros, este
 	    lo pondrmeos en la carpeta de trabajo que nos interesa.
+	    
 
 
  <<< Shortcuts >>>
 -f : force the checkout
+
+<<< Comandos >>>
+
+cd: cambiar directorio
+dir: muestra archivos
+
+
+<< Git commands >>
+
+Clone: Brings a repositoy that is hosted somewjere like Github into a  
+	folder on your local machine
+add : Track you files and changes in Git
+commit: save your files in Git
+push: uploads Git commits a to a remote repo
+pull: Download changes froma  remote repo yur local machine, the opposite of push.
 
 
 
