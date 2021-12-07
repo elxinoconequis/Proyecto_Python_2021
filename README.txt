@@ -15,4 +15,28 @@ Hay que distinguir que hay repositorios locales y remoto.
 **Uno de mis objetivos de este trabajo será poder retroceder entre versiones**
 
 
+-------------------------------------------------------------------
+
+<<<<< Notas >>>>>
+
+Conceptos básicos
+
+Branches:
+
+Headpointers:
+
+Stage Area: Es el area anterior a hacer un commit
+
+Work Area:
+
+Repository: El repositorio es un carpeta donde se guarda los metadaros, este
+	    lo pondrmeos en la carpeta de trabajo que nos interesa.
+
+
+ <<< Shortcuts >>>
+-f : force the checkout
+
+
+
+
 
