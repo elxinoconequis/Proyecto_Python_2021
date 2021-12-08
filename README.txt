@@ -80,5 +80,11 @@ Lass SSH se generaron : https://phoenixnap.com/kb/generate-ssh-key-windows-10
 
 
 
+-------
+Sobre la Terminal
 
+tenemos tre opciones que podemos hacer en el archivo laun.json
 
+"console": "externalTerminal" / "internalConsole" / "integratedTerminal"
+			abre la temrinal de windows exterior / esta va estar más limpia / esta sera sucia
+			
