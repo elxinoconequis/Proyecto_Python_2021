@@ -40,6 +40,15 @@ Work Area:
 Repository: El repositorio es un carpeta donde se guarda los metadaros, este
 	    lo pondrmeos en la carpeta de trabajo que nos interesa.
 	    
+SSH Keys: Archivo que nos permite conectar con el repositorio remoto
+	 En la linea de comados podemos crearla de una de las sigueintes maneras:
+	> ssh-keygen -t rsa -b 4096 -C "micorreoelectronico@ejemplo.com"
+	> ssh-keygen -t rsa -b 4096 -C "jf.ortega.silva@gmail.com"
+
+	Entonces va a pedir que le pongamos nombre a nuestra llave y si le pondremos una contraseña o no.
+	- yo decidi que no tuviera contraseña la llave. Se llama TestKeyJFOS
+
+	
 
 
  <<< Shortcuts >>>
@@ -48,6 +57,8 @@ Repository: El repositorio es un carpeta donde se guarda los metadaros, este
 <<< Comandos >>>
 
 cd: cambiar directorio
+	cd .. : me manda un nivel arriba de donde estoy
+
 dir: muestra archivos
 
 
@@ -59,6 +70,13 @@ add : Track you files and changes in Git
 commit: save your files in Git
 push: uploads Git commits a to a remote repo
 pull: Download changes froma  remote repo yur local machine, the opposite of push.
+log:
+
+
+'q' para salir de  la linea de comandos de git tras hacer un log
+
+
+Lass SSH se generaron : https://phoenixnap.com/kb/generate-ssh-key-windows-10
 
 
 
