@@ -37,6 +37,29 @@ Stage Area: Es el area anterior a hacer un commit
 
 Work Area:
 
+venv: (Entorno virtual)virtual environemente, para controlar las libreris y versiones de estas en nuestros proyectos. son máquiasn virtuales
+*Esto sirve para instalar porque podemos isntallar las bibliotecas/paquetes que necesitemos sin afectar otros proyectos.
+	Es util porque un proyecto podemos usarlo durante mucho tiempo con un paquete. y por lo tnato permite que distintos proyectos usen
+	disintas verisones de un mismo paquete
+
+	Para crearlo se utilizo el siguiente comando:
+			python -m venv my-venv
+
+	A continuación, se ejecuto el sig. comando:
+
+			source my-venv/Scipts/activate -- pero source es un comando de linuz así que no puedo activarlo de esta manera.
+	Para windows:
+
+	C:\Users\Joaquín Fernando\Documents\Python\Proyecto_Diciembre\my-venv\Scripts\Activate.ps1
+	\Ruta de donde se creo -----------------------------------------------\
+	Veamos la documentación. https://code.visualstudio.com/docs/python/environments#_create-a-virtual-environment
+
+							 https://docs.python.org/3/library/venv.html
+
+
+	
+
+
 Repository: El repositorio es un carpeta donde se guarda los metadaros, este
 	    lo pondrmeos en la carpeta de trabajo que nos interesa.
 	    
