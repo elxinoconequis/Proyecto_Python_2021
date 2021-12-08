@@ -1,5 +1,7 @@
 Fecha de Creación: 6 de Diciembre de 2021
-Proyecto Python 
+Proyecto Python
+
+Version de Python 3.8.1 
 Objetivo: Subir de nivel en Pyhton y Git
 
 En este caso primero hice el repositorio en la compu, paarte cree un
@@ -56,6 +58,9 @@ venv: (Entorno virtual)virtual environemente, para controlar las libreris y vers
 
 							 https://docs.python.org/3/library/venv.html
 
+	Para hacerlo con ANACONDA3
+
+		https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda
 
 	
 
