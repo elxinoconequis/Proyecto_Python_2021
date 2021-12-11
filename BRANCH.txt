@@ -1,0 +1,10 @@
+Como hacer branches y merge
+
+git branch: muestra las branches
+git checkout: what you would you use to switch branches
+
+    git checkout -b [nombre] - Esta instrucción crea una nueva branch con este nombre
+
+    
+
+

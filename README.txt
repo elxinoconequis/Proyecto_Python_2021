@@ -62,6 +62,20 @@ venv: (Entorno virtual)virtual environemente, para controlar las libreris y vers
 
 		https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda
 
+
+Este documento es especialemente bueno.
+Creación de env fuera del defaul: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#specifying-a-location-for-an-environment
+
+To see if a specific package is installed in an environment, in your terminal window or an Anaconda Prompt, run:
+
+		conda list -n myenv scipy
+
+
+There are a few things to be aware of when placing conda environments outside of the default envs folder.
+Conda can no longer find your environment with the --name flag. You’ll generally need to pass the --prefix flag along with the environment’s full path to find the environment.
+
+Specifying an install path when creating your conda environments makes it so that your command prompt is now prefixed with the active environment’s absolute path rather than the environment’s name.
+
 	
 
 
