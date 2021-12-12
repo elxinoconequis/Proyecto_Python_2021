@@ -213,8 +213,15 @@ Si deseamos que fueran completamente removidos
 
 		git reset --hard [hash]
 
+--- ¿Qué es el forking?" ---
+
+El forking es copiar un repositorio, pero se usa para copiar los repositorios de otras personas.
+
+Entonces este repositior se lcona en mi ceunta y ahora puedo hacerle cambios
+Ya que hagamos nuestro fork, podemos solicitar hacer un PR al autor original para que acepte nuestros cambios.
 
 
-
+Quedaría pendiente averiguar como bajar este repositorio a la maquina local para hacere los cambiosy despues subirlos. S
+Supongo que con un pull y push, debería hacerse.
 
 
