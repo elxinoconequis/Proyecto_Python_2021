@@ -1,5 +1,7 @@
 Fecha de Creación: 6 de Diciembre de 2021
-Proyecto Python 
+Proyecto Python
+
+Version de Python 3.8.1 
 Objetivo: Subir de nivel en Pyhton y Git
 
 En este caso primero hice el repositorio en la compu, paarte cree un
@@ -56,6 +58,23 @@ venv: (Entorno virtual)virtual environemente, para controlar las libreris y vers
 
 							 https://docs.python.org/3/library/venv.html
 
+	Para hacerlo con ANACONDA3
+
+		https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#starting-conda
+
+
+Este documento es especialemente bueno.
+Creación de env fuera del defaul: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#specifying-a-location-for-an-environment
+
+To see if a specific package is installed in an environment, in your terminal window or an Anaconda Prompt, run:
+
+		conda list -n myenv scipy
+
+
+There are a few things to be aware of when placing conda environments outside of the default envs folder.
+Conda can no longer find your environment with the --name flag. You’ll generally need to pass the --prefix flag along with the environment’s full path to find the environment.
+
+Specifying an install path when creating your conda environments makes it so that your command prompt is now prefixed with the active environment’s absolute path rather than the environment’s name.
 
 	
 
@@ -110,4 +129,31 @@ tenemos tre opciones que podemos hacer en el archivo laun.json
 
 "console": "externalTerminal" / "internalConsole" / "integratedTerminal"
 			abre la temrinal de windows exterior / esta va estar más limpia / esta sera sucia
-			
+
+
+*-----**-----**-----**-----**-----**-----**-----**-----**-----**-----*
+
+Este es una línea agregada en el Primer-branch
+
+
+	Ahora bien para hacer el merge
+
+	la practica común de acuerdo al video es que se hace un push
+	y nota el --set-upstream  = -un
+
+	--set-upstream : sirve para para indicar en que branch
+
+	Push the code in your local repository to GitHub
+
+Sobre el git push :
+https://www.datacamp.com/community/tutorials/git-push-pull?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=14989519638&utm_adgroupid=127836677279&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=332602034361&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9073981&gclid=CjwKCAiAtdGNBhAmEiwAWxGcUoMhPw3pSrRSzOgSNDcWVqTjzc2kPXea_r1UF-LR9fQ1SoYYrYnQ_xoCICoQAvD_BwE
+
+git push -u origin master is used for pushing local content to GitHub.
+In the code, the origin is your default remote repository name and '-u' flag is upstream,
+ which is equivalent to '-set-upstream.' and the master is the branch,
+ name.upstream is the repository that we have cloned the project.
+
+ Ejemplo para este caso:
+						git push -u Proyecto_Python_2021 Primer-branch
+
+						
