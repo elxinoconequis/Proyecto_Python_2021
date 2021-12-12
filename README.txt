@@ -191,9 +191,30 @@ es activar la branch princilapl y luego 		git merge [nombre de la rama a ser mez
 
 ---- Deshacer en GIT ----
 
-Supongamos que agregamos algo al stage y que siempre no queríamos
+Supongamos que agregamos algo al stage y que siempre no queríamos (antes de hacer un commit)
 
-git reset: // no argumentes o el nombre del alchivo en cuestión
+git reset: para deshacer el último cambio // no argumentes o el nombre del alchivo en cuestión
+
+En caso de que hayamos hecho un commit que no queríamos
+
+	git reset HEAD // HEAD: hace referencia al último commit
+
+o bien si me quiero ir commit más atrás podnría:
+
+	git reset HEAD~1 // alt+126 para escribri la virquilla
+
+El hash de un commit lo podemos ver en con git log
+ejemplo: 	2508c06fc5cf44a5198bd809b51f53043f2b918e
+
+entonces podríamos tambien usar "git reset [hash]" para desahacer los cambios en el repositorio a partir de 
+ese commit. Esto solo hace que dejen de estar en el stage.
+
+Si deseamos que fueran completamente removidos
+
+		git reset --hard [hash]
+
+
+
 
 
 
