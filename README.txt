@@ -189,4 +189,11 @@ entonce serira para hacer el merge local
 es activar la branch princilapl y luego 		git merge [nombre de la rama a ser mezcalda]
 
 
+---- Deshacer en GIT ----
+
+Supongamos que agregamos algo al stage y que siempre no queríamos
+
+git reset: // no argumentes o el nombre del alchivo en cuestión
+
+
 
