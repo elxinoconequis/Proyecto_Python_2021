@@ -181,8 +181,8 @@ A la hora de hacer merge, puede haber conflictos si muchas personas estan trabja
 
 Agrega yr hacer commit
 
-	git commit -am "Comentario generico"
+	git commit -am "Comentario generico" // solo funciona para archivos modificados, no para archivos recién creados
 
-	
+
 
 
