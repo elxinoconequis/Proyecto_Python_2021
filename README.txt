@@ -153,7 +153,7 @@ In the code, the origin is your default remote repository name and '-u' flag is 
  which is equivalent to '-set-upstream.' and the master is the branch,
  name.upstream is the repository that we have cloned the project.
 
- Ejemplo para este caso:
+ Ejemplo para este caso: //Texo para que entre en conflicto.
 						git push -u Proyecto_Python_2021 Primer-branch
 
 						
