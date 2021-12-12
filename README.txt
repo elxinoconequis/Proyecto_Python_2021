@@ -136,4 +136,24 @@ tenemos tre opciones que podemos hacer en el archivo laun.json
 Este es una línea agregada en el Primer-branch
 
 
-			
+	Ahora bien para hacer el merge
+
+	la practica común de acuerdo al video es que se hace un push
+	y nota el --set-upstream  = -un
+
+	--set-upstream : sirve para para indicar en que branch
+
+	Push the code in your local repository to GitHub
+
+Sobre el git push :
+https://www.datacamp.com/community/tutorials/git-push-pull?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=14989519638&utm_adgroupid=127836677279&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=332602034361&utm_targetid=aud-299261629574:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=9073981&gclid=CjwKCAiAtdGNBhAmEiwAWxGcUoMhPw3pSrRSzOgSNDcWVqTjzc2kPXea_r1UF-LR9fQ1SoYYrYnQ_xoCICoQAvD_BwE
+
+git push -u origin master is used for pushing local content to GitHub.
+In the code, the origin is your default remote repository name and '-u' flag is upstream,
+ which is equivalent to '-set-upstream.' and the master is the branch,
+ name.upstream is the repository that we have cloned the project.
+
+ Ejemplo para este caso:
+						git push -u Proyecto_Python_2021 Primer-branch
+
+						
