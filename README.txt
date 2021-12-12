@@ -157,3 +157,32 @@ In the code, the origin is your default remote repository name and '-u' flag is 
 						git push -u Proyecto_Python_2021 Primer-branch
 
 						
+
+--- Sobre los Pull Request (PR) y el merge -----
+
+1) Pude hacerse manualmenmte en el sitio de GitHub, donde podremos agregegar comentarios
+
+Algoq ue notaremos es que tras hacer el PR y el merge no se verá reflejado en nuestro editor de código (ambiente)
+inmediatamente, porque solo esta en GitHub
+
+	- Vamos a la branch main/master
+			git checkout main
+	- Luego hacemos el pull	
+			git pull // como ya tenemes el upstreamo no tenemos que agregar más argumentos.
+
+Como ya se hizo el merge, vamos a borrar la branch
+			git branch -d [nombre de la branch que borrar] ' -d : delete'
+
+2) PAra hacerlo en la terminal podemos hacer lo siguiente:
+
+
+A la hora de hacer merge, puede haber conflictos si muchas personas estan trabjando sobre el mismo código.
+
+
+Agrega yr hacer commit
+
+	git commit -am "Comentario generico"
+
+	
+
+
