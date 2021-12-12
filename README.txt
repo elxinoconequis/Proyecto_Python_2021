@@ -184,5 +184,9 @@ Agrega yr hacer commit
 	git commit -am "Comentario generico" // solo funciona para archivos modificados, no para archivos recién creados
 
 
+entonce serira para hacer el merge local
+
+es activar la branch princilapl y luego 		git merge [nombre de la rama a ser mezcalda]
+
 
 
